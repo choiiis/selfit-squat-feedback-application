@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="468dp">
+
+        <ListView
+            android:id="@+id/chat_list"
+            android:layout_width="match_parent"
+            android:layout_height="412dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0"
+        >
+        <TableRow>
+            <EditText android:id="@+id/chat_msg"/>
+            <Button android:text="Send"
+                android:id="@+id/chat_msgBtn"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

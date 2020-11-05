@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:id="@+id/br_layout_main"
+        android:layout_width="360dp"
+        android:layout_height="640dp"
+        android:orientation="vertical">
+
+        <SurfaceView
+            android:id="@+id/br_camera_preview_main"
+            android:layout_width="match_parent"
+            android:layout_height="520dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="140dp">
+
+            <ImageView
+                android:id="@+id/br_button_main_capture"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/start_workout_camera_btn"/>
+
+            <ImageView
+                android:id="@+id/br_button_show_result"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/feedback"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

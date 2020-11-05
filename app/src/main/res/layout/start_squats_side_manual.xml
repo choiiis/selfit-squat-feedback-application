@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="580dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/start_squats_side_logo"/>
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/start_squats_side_pic"/>
+
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/start_squats_side_rule"/>
+
+        <ImageView
+            android:id="@+id/start_squats_side_start_btn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/start_squats_side_start_btn"/>
+
+    </LinearLayout>
+
+</LinearLayout>

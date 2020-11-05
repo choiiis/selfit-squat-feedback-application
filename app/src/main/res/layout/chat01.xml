@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="580dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="130dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/selfit_main_logo"/>
+
+        <ImageView
+            android:id="@+id/start_btn"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/start_workout_btn"/>
+
+        <ImageView
+            android:id="@+id/goal_btn"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/workout_goal_btn" />
+
+        <ImageView
+            android:id="@+id/rev_btn"
+            android:layout_width="280dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/workout_review_btn" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
